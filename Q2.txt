@@ -1,0 +1,17 @@
+Hash class:
+    Functions in this class:
+        ReadFile:
+            - takes in the file path as a parameter 
+            - opens file and reads storing it in a variable.
+            - Removes any characters except "." and the alphabet, removes them and replaces with a space
+            - reads each line, splits wherever there is a space and stores each portion of the string in two seperate arrays
+            - takes the key and value variables and stores them in the dictionary
+        MostVisits:
+            - takes the new dictionary as the parameter 
+            - makes new temporary dictionary that will be the sorted dictionary 
+            - returns the first value and key from the new dictionary
+        Search:
+            - takes the key and the dictionary we created 
+            - for loop that iterates through the dictionary 
+            - if statement within the for loop that compares the desired key to the keys in the dictionary
+            - if there is a match return the value associated with that key.
